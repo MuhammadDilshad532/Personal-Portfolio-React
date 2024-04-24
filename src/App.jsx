@@ -26,14 +26,14 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more Lorem, ipsum dolor sit
-        amet consectetur adipisicing elit. Voluptatum eveniet vel quidem
-        consequuntur nisi incidunt laudantium, dolorem cupiditate. Possimus
-        officiis laborum quo laboriosam molestiae blanditiis quia nisi commodi
-        incidunt quas? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Consectetur voluptatibus, beatae iusto, quisquam minus at vero deleniti
-        nam reprehenderit excepturi quo aut quod odio quos non nesciunt totam
-        laboriosam! Sequi?
+        Click on the Vite and React logos to learn more Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Rerum facere nihil sapiente quasi
+        odio doloremque possimus necessitatibus nisi deserunt illo eius facilis
+        debitis, omnis consequuntur quos unde saepe porro sint? Lorem ipsum
+        dolor sit amet, consectetur adipisicing elit. Nesciunt a dolorem
+        blanditiis aliquid vitae dolorum beatae error facilis adipisci vel
+        accusantium voluptatem at cumque eligendi, quia, iure nobis dicta
+        expedita.
       </p>
     </>
   );
