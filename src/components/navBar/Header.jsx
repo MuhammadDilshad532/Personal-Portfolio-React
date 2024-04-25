@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Bars3BottomRightIcon, XMarkIcon } from "@heroicons/react/24/solid";
+import Toggle from "../ToggleButton/Toggle";
 // es main  jo icons estmale ho rahay hain wo  hero icons say hain  jis ki comand ye hai npm install @heroicons/react
 
 const Header = () => {
@@ -16,8 +17,9 @@ const Header = () => {
     <div className=" w-full fixed top-0 left-0">
       <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
         {/* logo section */}
-        <div className="font-bold text-2xl cursor-pointer flex items-center gap-1">
+        <div className="font-bold text-2xl cursor-pointer flex items-center gap-10">
           <span>Muhammad Dilshad</span>
+          <Toggle />
         </div>
         {/* Menu icon */}
         <div
