@@ -42,7 +42,7 @@ const Header = () => {
               </a>
             </li>
           ))}
-          <button className=" ml-6 w-24 h-9 rounded-2xl text-white bg-orange-300 hover:text-orange-300 border hover:border-orange-300 hover:bg-white shadow-2xl shadow-orange-300  ">
+          <button className=" ml-6 w-24 h-9 rounded-2xl text-white bg-orange-300 hover:text-orange-300 border hover:border-orange-300 hover:bg-white shadow-2xl shadow-orange-300   ">
             Contact
           </button>
         </ul>
