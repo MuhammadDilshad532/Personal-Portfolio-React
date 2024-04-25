@@ -5,9 +5,7 @@ const App = () => {
   return (
     <div>
       <Header />
-      <div className="mt-32">
-        <AboutMe />
-      </div>
+      <AboutMe />
     </div>
   );
 };
