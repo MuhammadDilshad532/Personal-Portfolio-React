@@ -6,7 +6,7 @@ import Toggle from "../ToggleButton/Toggle";
 const Header = () => {
   let data = [
     { name: "Home", path: "/" },
-    { name: "Service", path: "/Service" },
+    { name: "Service", path: "/Services" },
     { name: "Experience", path: "/Experience" },
     { name: "Protfolio", path: "/Protfolio" },
     { name: "Testimonial", path: "/Testimonial" },
