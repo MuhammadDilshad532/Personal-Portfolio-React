@@ -1,13 +1,17 @@
 import React from "react";
 import AboutMe from "../../components/aboutme/aboutMe";
-import Header from "../../components/navBar/Header";
 import Services from "../../components/Services/Services";
+import Experience from "../../pages/Experience/Experience";
+import Protfolio from "../../pages/Protfolio/Protfolio";
+import Testimonial from "../../pages/Testimonial/Testimonial";
 const Home = () => {
   return (
     <div>
-      <Header />
       <AboutMe />
       <Services />
+      <Experience />
+      <Protfolio />
+      <Testimonial />
     </div>
   );
 };
