@@ -56,18 +56,20 @@ const AboutMe = () => {
               className="transform scale-140 left-[28%] absolute -z-10 w-96 ml-[400px]"
               alt="boy"
             />
-            <div className="w-60 h-24  ml-[370px] rounded-lg bg-slate-50 flex items-center gap-9 shadow-2xl shadow-green-300">
+            <div className="w-60 h-24  ml-[370px] rounded-lg bg-slate-50 flex items-center gap-9 shadow-2xl ">
               <img src={crown} alt="crown" className="w-16 ml-6 " />
               <span>
                 web <br /> Devveloper
               </span>
+              <div className="absolute  w-60 h-60 rounded-full bg-purple-200 filter blur-xl top-0 mt-24 -z-40"></div>
             </div>
-            <div className="w-60 h-24 rounded-lg flex bg-slate-50 items-center gap-9 shadow-2xl shadow-red-500 mt-96">
+            <div className="w-60 h-24 rounded-lg flex bg-slate-50 items-center gap-9 shadow-2xl  mt-96">
               <img src={thumbup} alt="thumb up" className="w-16 ml-6" />
               <span>
                 Best Design
                 <br /> Award
               </span>
+              <div className="absolute  w-96 h-72 rounded-full bg-green-100 -ml-36 filter blur-xl top-0 mt-[47%] -z-40"></div>
             </div>
           </div>
         </div>
