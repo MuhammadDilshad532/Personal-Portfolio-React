@@ -9,7 +9,8 @@ const Experience = () => {
 
   return (
     <>
-      <div className="experience mt-96" id="experience">
+      <Works />
+      <div className="experience mt-80 " id="experience">
         <div className="achievement">
           {/* darkMode */}
           <div
@@ -42,7 +43,6 @@ const Experience = () => {
           <span>Work</span>
         </div>
       </div>
-      <Works />
     </>
   );
 };

@@ -15,10 +15,10 @@ const Works = () => {
 
   // transition
   return (
-    <div className="px-12 flex h-90vh mt-16 items-center">
+    <div className="px-12 flex h-90vh mt-72 items-center">
       {/* left side */}
       <div className="w-left">
-        <div className="flex flex-col relative">
+        <div className="flex flex-col relative mt-20 gap-10">
           {/* dark Mode */}
           <span
             className="text-black text-5xl font-bold"
@@ -40,7 +40,9 @@ const Works = () => {
             ispum is simpley dummy text of printing
           </spane>
           <Link to="/Contact" smooth={true} spy={true}>
-            <button className="w-32 h-8 mt-16">Hire Me</button>
+            <button className="ml-6 w-28 h-10 rounded-2xl text-white bg-orange-300 hover:text-orange-300 border hover:border-orange-300 hover:bg-white shadow-2xl shadow-orange-300">
+              Hire me
+            </button>
           </Link>
           <div
             className="blur s-blur1"
@@ -56,26 +58,26 @@ const Works = () => {
           whileInView={{ rotate: 0 }}
           viewport={{ margin: "-40px" }}
           transition={{ duration: 3.5, type: "spring" }}
-          className="w-mainCircle absolute left-36 w-72 h-72 rounded-full shadow-sm top-8 bg-white z-10"
+          className="w-mainCircle absolute left-36  w-72 h-72 rounded-full shadow-2xl   top-8 bg-white z-10"
         >
-          <div className="w-secCircle relative top-neg-12 left-24 w-24 h-24  rounded-full border-4 border-gray-300 flex items-center justify-center shadow-sm bg-white">
-            <img src={Upwork} alt="" className="transform scale-60" />
+          <div className="w-secCircle relative top-neg-12  w-28 h-28  rounded-full border-4 border-gray-300 flex items-center justify-center shadow-sm bg-white">
+            <img src={Upwork} alt="" className="transform scale-60 w-16" />
           </div>
-          <div className="w-secCircle relative left-neg-12 top-20 w-24 h-24  rounded-full border-4 border-gray-300 flex items-center justify-center shadow-sm bg-white">
-            <img src={Fiverr} alt="" className="transform scale-60" />
+          <div className="w-secCircle relative left-neg-12 top-20 w-28 h-28  rounded-full border-4 border-gray-300 flex items-center justify-center shadow-sm bg-white">
+            <img src={Fiverr} alt="" className="transform scale-60 w-10" />
           </div>
-          <div className="w-secCircle relative left-24 -mt-20 w-24 h-24  rounded-full border-4 border-gray-300 flex items-center justify-center shadow-sm bg-white">
-            <img src={Amazon} alt="" className="transform scale-60" />
+          <div className="w-secCircle relative left-24 -mt-36 w-28 h-28  rounded-full border-4 border-gray-300 flex items-center justify-center shadow-2xl bg-white">
+            <img src={Amazon} alt="" className="transform scale-60 w-16" />
           </div>{" "}
-          <div className="w-secCircle relative left-24 mt-4 w-24 h-24  rounded-full border-4 border-gray-300 flex items-center justify-center shadow-sm bg-white">
-            <img src={Shopify} alt="" className="transform scale-60" />
+          <div className="w-secCircle relative left-24 ml-20 -mt-56 w-28 h-28  rounded-full border-4 border-gray-300 flex items-center justify-center shadow-sm bg-white">
+            <img src={Shopify} alt="" className="transform scale-60 w-16" />
           </div>
-          <div className="w-secCircle relative left-24 mt-4 w-24 h-24  rounded-full border-4 border-gray-300 flex items-center justify-center shadow-sm bg-white">
-            <img src={Facebook} alt="" className="transform scale-10" />
+          <div className="w-secCircle relative ml-52 mt-24 w-28 h-28  rounded-full border-4 border-gray-300 flex items-center justify-center shadow-sm bg-white">
+            <img src={Facebook} alt="" className="transform scale-10 w-16" />
           </div>
         </motion.div>
         {/* background Circles */}
-        <div className="w-backCircle blueCircle , bg-blue-600 left-72 top-0 ,absolute h-52 w-52 rounded-full -z-10"></div>
+        <div className="w-backCircle blueCircle  bg-blue-600 mt-11 ml-80 h-52 w-52 rounded-full -z-10"></div>
         <div className="w-backCircle yellowCircle bg-yellow-400 left-72 top-32 absolute h-52 w-52 rounded-full -z-10"></div>
       </div>
     </div>
