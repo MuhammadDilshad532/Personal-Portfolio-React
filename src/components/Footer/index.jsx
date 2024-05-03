@@ -6,7 +6,7 @@ import Instagram from "../../assets/img/instagram.png";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col items-center relative">
+    <div className="flex flex-col items-center relative mt-44">
       <span className="text-white text-xl mt-48">
         dilshadahamad532280@gmail.com
       </span>
