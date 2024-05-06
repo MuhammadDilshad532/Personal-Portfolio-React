@@ -46,11 +46,13 @@ const Header = () => {
             </li>
           ))}
           {/* Use Link for the contact button as well */}
-          <li className="md:ml-8 md:my-0 my-7 font-semibold">
-            <button className="ml-6 w-24 h-9 rounded-2xl text-white bg-orange-300 hover:text-orange-300 border hover:border-orange-300 hover:bg-white shadow-2xl shadow-orange-300">
-              contect
-            </button>
-          </li>
+          <a href="/contect">
+            <li className="md:ml-8 md:my-0 my-7 font-semibold">
+              <button className="ml-6 w-24 h-9 rounded-2xl text-white bg-orange-300 hover:text-orange-300 border hover:border-orange-300 hover:bg-white shadow-2xl shadow-orange-300">
+                contect
+              </button>
+            </li>
+          </a>
         </ul>
       </div>
     </div>

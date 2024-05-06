@@ -1,4 +1,3 @@
-// ThemeProvider.js
 import React, { useState } from "react";
 import { themeContext } from "../../Context";
 
