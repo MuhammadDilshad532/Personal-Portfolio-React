@@ -4,6 +4,7 @@ import Services from "../../components/Services/Services";
 import Experience from "../../pages/Experience/Experience";
 import Protfolio from "../../pages/Protfolio/Protfolio";
 import Testimonial from "../../pages/Testimonial/Testimonial";
+import Contect from "../../components/contect/contect";
 const Home = () => {
   return (
     <div>
@@ -12,6 +13,7 @@ const Home = () => {
       <Experience />
       <Protfolio />
       <Testimonial />
+      <Contect />
     </div>
   );
 };

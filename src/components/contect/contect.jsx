@@ -38,7 +38,7 @@ const Contact = () => {
         <span className="text-5xl font-bold">Get in Touch</span>
         <span className="text-5xl text-orange-300 font-bold">Contact me</span>
       </div>
-      <div className="flex flex-col gap-14">
+      <div className="flex flex-col gap-14 mt-32">
         <form onSubmit={handleSubmit}>
           <div className="flex flex-col">
             <input
