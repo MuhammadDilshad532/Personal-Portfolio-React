@@ -11,12 +11,9 @@ const AboutMe = () => {
   return (
     <>
       <div className="flex h-77vh mt-24 md:ml-2 xl:ml-11 ">
-        {/* Left name side */}
         <div className="flex flex-col relative gap-8">
           <div className="flex flex-col gap-1">
-            <span className="text-black font-bold text-6xl mt-28">
-              Hy! I Am
-            </span>
+            <span className="text-gray font-bold text-6xl mt-28">Hy! I Am</span>
 
             <span className="text-orange-300 font-bold text-6xl">
               Muhammad Dilshad
@@ -30,7 +27,7 @@ const AboutMe = () => {
           <button className="ml-6 w-28 h-10 rounded-2xl text-white bg-orange-300 hover:text-orange-300 border hover:border-orange-300 hover:bg-white shadow-2xl shadow-orange-300">
             Hire me
           </button>
-          {/* Social icons */}
+
           <div className="i-icons mt-16 flex gap-10">
             <img src={Github} alt="Github" className="w-11 h-11" />
             <img src={LinkedIn} alt="LinkedIn" className="w-11 h-11" />
@@ -38,7 +35,6 @@ const AboutMe = () => {
           </div>
         </div>
 
-        {/* Right image side */}
         <div className="">
           <div className="flex-1  ">
             <img
@@ -61,7 +57,6 @@ const AboutMe = () => {
               <span>
                 web <br /> Devveloper
               </span>
-              <div className="absolute  w-60 h-60 rounded-full bg-purple-200 filter blur-xl top-0 mt-24 -z-40"></div>
             </div>
             <div className="w-60 h-24 rounded-lg flex bg-slate-50 items-center gap-9 shadow-2xl  mt-96">
               <img src={thumbup} alt="thumb up" className="w-16 ml-6" />
@@ -69,7 +64,6 @@ const AboutMe = () => {
                 Best Design
                 <br /> Award
               </span>
-              <div className="absolute  w-96 h-72 rounded-full bg-green-100 -ml-36 filter blur-xl top-0 mt-[47%] -z-40"></div>
             </div>
           </div>
         </div>
