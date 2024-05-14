@@ -10,12 +10,14 @@ import thumbup from "../../assets/img/thumbup.png";
 const AboutMe = () => {
   return (
     <>
-      <div className="flex h-77vh mt-24 md:ml-2 xl:ml-11 ">
+      <div className="flex h-77vh mt-24 sm:2 !important md:ml-2 lg:ml-11 gap-3 ">
         <div className="flex flex-col relative gap-8">
           <div className="flex flex-col gap-1">
-            <span className="text-gray font-bold text-6xl mt-28">Hy! I Am</span>
+            <span className="text-gray font-bold sm:text-2xl md:text-4xl lg:text-6xl mt-28">
+              Hy! I Am
+            </span>
 
-            <span className="text-orange-300 font-bold text-6xl">
+            <span className="text-orange-300 font-bold sm:text-2xl md:text-4xl lg:text-6xl">
               Muhammad Dilshad
             </span>
             <span className="font-hairline text-sm text-gray mt-4">
@@ -35,36 +37,34 @@ const AboutMe = () => {
           </div>
         </div>
 
-        <div className="">
-          <div className="flex-1  ">
-            <img
-              src={Vector1}
-              className="transform scale-69 -left-15 -top-9 absolute -z-10 w-[470px] ml-16 mt-72 "
-              alt="Vector1"
-            />
-            <img
-              src={Vector2}
-              className="top-[-4.6rem] transform scale-67 left-[-3rem] absolute -z-10 w-[510px] ml-[770px] mt-80"
-              alt="Vector2"
-            />
-            <img
-              src={boy}
-              className="transform scale-140 left-[28%] absolute -z-10 w-96 ml-[400px]"
-              alt="boy"
-            />
-            <div className="w-60 h-24  ml-[370px] rounded-lg bg-slate-50 flex items-center gap-9 shadow-2xl ">
-              <img src={crown} alt="crown" className="w-16 ml-6 " />
-              <span>
-                web <br /> Devveloper
-              </span>
-            </div>
-            <div className="w-60 h-24 rounded-lg flex bg-slate-50 items-center gap-9 shadow-2xl  mt-96">
-              <img src={thumbup} alt="thumb up" className="w-16 ml-6" />
-              <span>
-                Best Design
-                <br /> Award
-              </span>
-            </div>
+        <div className="flex-1  ">
+          <img
+            src={Vector1}
+            className="transform scale-69 -left-15 -top-9 absolute -z-10 w-[470px] sm:ml-2 md:ml-6 lg:ml-16 mt-72 "
+            alt="Vector1"
+          />
+          <img
+            src={Vector2}
+            className="top-[-4.6rem] transform scale-67 left-[-3rem] absolute -z-10 w-[510px] ml-[770px] mt-80"
+            alt="Vector2"
+          />
+          <img
+            src={boy}
+            className="transform scale-140 left-[28%] absolute -z-10 w-96 ml-[400px]"
+            alt="boy"
+          />
+          <div className="w-60 h-24  ml-[370px] rounded-lg bg-slate-50 flex items-center gap-9 shadow-2xl ">
+            <img src={crown} alt="crown" className="w-16 ml-6 " />
+            <span>
+              web <br /> Devveloper
+            </span>
+          </div>
+          <div className="w-60 h-24 rounded-lg flex bg-slate-50 items-center gap-9 shadow-2xl  mt-96">
+            <img src={thumbup} alt="thumb up" className="w-16 ml-6" />
+            <span>
+              Best Design
+              <br /> Award
+            </span>
           </div>
         </div>
       </div>
