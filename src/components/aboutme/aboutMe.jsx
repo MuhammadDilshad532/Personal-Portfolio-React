@@ -10,7 +10,7 @@ import thumbup from "../../assets/img/thumbup.png";
 const AboutMe = () => {
   return (
     <>
-      <div className="flex h-77vh mt-24 sm:2 !important md:ml-2 lg:ml-11 gap-3 ">
+      <div className="flex   mt-24  lg:ml-11 gap-3 ">
         <div className="flex flex-col relative gap-8">
           <div className="flex flex-col gap-1">
             <span className="text-gray font-bold sm:text-2xl md:text-4xl lg:text-6xl mt-28">
@@ -37,35 +37,35 @@ const AboutMe = () => {
           </div>
         </div>
 
-        <div className="flex-1  ">
+        <div className="  ">
           <img
             src={Vector1}
-            className="transform scale-69 -left-15 -top-9 absolute -z-10 w-[470px] sm:ml-2 md:ml-6 lg:ml-16 mt-72 "
+            className=" -left-15 -top-9 absolute -z-10 w-[25%] sm:-ml-72 md:-ml-40 lg:ml-16 mt-72 "
             alt="Vector1"
           />
           <img
             src={Vector2}
-            className="top-[-4.6rem] transform scale-67 left-[-3rem] absolute -z-10 w-[510px] ml-[770px] mt-80"
+            className=" left-[-3rem] absolute -z-10 w-[30%] sm:ml-[500px] md:ml-[50%] lg:ml-[60%] mt-24"
             alt="Vector2"
           />
           <img
             src={boy}
-            className="transform scale-140 left-[28%] absolute -z-10 w-96 ml-[400px]"
+            className=" absolute -z-10 mt-10 sm:w-40 md:w-60 lg:w-72 sm:-ml-32 md:-ml-32 lg:ml-24 "
             alt="boy"
           />
-          <div className="w-60 h-24  ml-[370px] rounded-lg bg-slate-50 flex items-center gap-9 shadow-2xl ">
+          {/* <div className="w-60 h-24  ml-[370px] rounded-lg bg-slate-50 flex items-center gap-9 shadow-2xl ">
             <img src={crown} alt="crown" className="w-16 ml-6 " />
             <span>
               web <br /> Devveloper
             </span>
-          </div>
-          <div className="w-60 h-24 rounded-lg flex bg-slate-50 items-center gap-9 shadow-2xl  mt-96">
+          </div> */}
+          {/* <div className="w-60 h-24 rounded-lg flex bg-slate-50 items-center gap-9 shadow-2xl  mt-96">
             <img src={thumbup} alt="thumb up" className="w-16 ml-6" />
             <span>
               Best Design
               <br /> Award
             </span>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
